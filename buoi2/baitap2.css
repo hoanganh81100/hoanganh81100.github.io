@@ -1,0 +1,58 @@
+body {
+    background-color: #f4fcff;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    text-decoration: white;
+}
+
+ #name{
+    color: #5c5c5c;
+    background-color: #a3a2a2;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0px 20px;
+    padding: 5px;
+}
+h2{
+    color: #ff0000;
+}
+h2, h3{
+    color: blue;
+    background-color: #ffaaff;
+}
+#icon1{
+    color: rgb(228, 34, 73);
+    background-color: pink;
+}
+#icon2{
+    color: blueviolet;
+    background-color: violet;
+}
+#icon3{
+    color: darkblue;
+    background-color: green;
+}
+#icon4{
+    color: #ff0000;
+    background-color: blue;
+}
+h2{
+    text-transform: capitalize;
+}
+.dextop{
+    text-decoration: underline;
+}
+
+img{
+    width: 80%;
+    hight: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}

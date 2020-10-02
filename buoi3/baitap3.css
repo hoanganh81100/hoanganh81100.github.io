@@ -1,0 +1,28 @@
+body{
+    background-color: #d4d4d4;
+}
+*{
+    margin: 0px;
+}
+.container{
+    height: 800px;
+    line-height: 2;
+    padding: 60px;
+    margin: auto;
+    width: 60% ;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.qwe{
+    text-align: center;
+    margin-left: 60%;
+
+}
+#main{
+    text-align: left;
+}
+.main{
+    text-align: justify;
+    text-transform: capitalize;
+}
