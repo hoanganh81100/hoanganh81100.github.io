@@ -1,29 +1,31 @@
-*{
-    margin: 0px;
+* {
+    font-family: Roboto,sans-serif;
     box-sizing: border-box;
+    margin: 0px;
 }
 
-.navigation{
+.navbar {
     width: 100%;
     height: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #2c465f;
+    padding: 0px 16px 0px 16px;
+    background-color: #34465c;
     display: flex;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     width: 150px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 120px;
 }
 
-.avatar{
+.avatar {
     width: 60px;
     height: 100%;
     display: flex;
@@ -31,12 +33,10 @@
     align-items: center;
 }
 
-.avatar img{
+.avatar img {
     width: 40px;
     height: 40px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
+    border-radius: 20px;
     object-fit: cover;
 }
 
@@ -73,7 +73,7 @@ li{
 .banner {
     width: 70%;
     height: 500px;
-    margin-right: 10px;
+    margin-right: 20px;
     overflow: hidden;
 }
 
@@ -86,7 +86,6 @@ li{
 .list-blog {
     width: 30%;
     height: 500px;
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,33 +100,37 @@ li{
 .widget {
     height: 21.5%;
     width: 100%;
-    margin-right: 10px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
-.widget img {
+.widget img{
     width: 30%;
-    object-fit: contain;
-    background-color: #ff0000;
+    height: 100%;
 }
 
-.icon{
-    font-size: 17px;
-    display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    margin: 0px 0px;
-}
-
-.icon-1 a{
-    display: flex;
-    text-decoration: none;
+.widget a {
     color: black;
+    text-decoration: none;
 }
 
-li{
-    /* display: block; */
-    list-style-type: none;
-    margin: 0px 15px;
+.post {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+.lust{
+    margin-top: 25px;
+    font-size: 13px;
+    color: rgb(120, 120, 120);
+    display: flex;
+    flex-direction: row;
+}
+
+.infos{
+    margin: 0 25px;
+    margin-bottom: 50px;
+    padding:0 30px;
+}

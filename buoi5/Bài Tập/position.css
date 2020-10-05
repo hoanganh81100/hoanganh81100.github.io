@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+}
+
+.items{
+    width: 20%;
+    height: auto;
+    background-color: #c5c5c5;
+    float: left;
+}
+

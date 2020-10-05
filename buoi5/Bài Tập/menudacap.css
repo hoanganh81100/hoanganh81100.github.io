@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: wheat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px 30px;
+}
+/* css menu da cap */
+.menu{
+    display: flex;
+    position: relative;
+}
+
+.menu a{
+    text-decoration: none;
+    color: blue;
+    background-color: lavender;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: orange;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    /* display: block; */
+    list-style-type: none;
+    margin: 0px 15px;
+}
+
+.menu-list{
+    color: black;
+    position: absolute;
+    padding: 10px;
+    padding-top: 30px;
+    display: none;
+}
+
+.menu li:hover{
+    background-color: #c2b9b9;
+}
+
+.menu li:hover .menu-list{
+    display: block;
+}
+
+.list-one{
+    /* position: absolute; */
+    display: none;
+}
+
+
+.menu-list li:hover .list-one{
+    display: block;
+}
