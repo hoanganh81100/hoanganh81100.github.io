@@ -44,3 +44,4 @@ function squareOfNumber(x){
     return Math.pow(x, 2);
 }
 
+https://github.com/hoanganh81100/hoanganh81100.github.io/blob/main/buoi9/B%C3%A0i%20T%E1%BA%ADp/thuc-hanh-table.html
