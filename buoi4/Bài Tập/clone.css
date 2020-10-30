@@ -1,11 +1,4 @@
-<<<<<<< HEAD:buoi4/Bài Tập/clone.css
 * {
-    font-family: Roboto,sans-serif;
-=======
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
->>>>>>> c04fe5f59f266007255ac95f4d9ed8841e324acf:buoi4/style.css
     box-sizing: border-box;
     margin: 0px;
 }
@@ -64,11 +57,6 @@
     text-transform: uppercase;
 }
 
-.menu ul{
-    margin: 0px;
-    padding: 0px;
-}
-
 li{
     /* display: block; */
     list-style-type: none;
@@ -84,7 +72,7 @@ li{
 .banner {
     width: 70%;
     height: 500px;
-    margin-right: 20px;
+    margin-right: 10px;
     overflow: hidden;
 }
 
@@ -97,6 +85,7 @@ li{
 .list-blog {
     width: 30%;
     height: 500px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -116,47 +105,14 @@ li{
 }
 
 .widget img{
+    height: 100%;
     width: 30%;
-    height: 100%;
+    border-left: 4px;
 }
 
-<<<<<<< HEAD:buoi4/Bài Tập/clone.css
-.widget a {
-    color: black;
-    text-decoration: none;
-=======
-.icon{
-    font-size: 17px;
-    display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    margin: 0px 0px;
-    
->>>>>>> c04fe5f59f266007255ac95f4d9ed8841e324acf:buoi4/style.css
-}
-
-.post {
-    height: 100%;
+.post{
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.lust{
-    margin-top: 25px;
-    font-size: 13px;
-    color: rgb(120, 120, 120);
-    display: flex;
-    flex-direction: row;
-}
-
-<<<<<<< HEAD:buoi4/Bài Tập/clone.css
-.infos{
-    margin: 0 25px;
-    margin-bottom: 50px;
-    padding:0 30px;
-=======
-.mech ul li{
+    width: 70%;
+    color: #000;
     text-decoration: none;
->>>>>>> c04fe5f59f266007255ac95f4d9ed8841e324acf:buoi4/style.css
 }
